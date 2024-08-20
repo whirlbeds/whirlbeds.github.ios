@@ -5,6 +5,12 @@
     list-style: none;
 }
 
+
+body {
+    background-color: rgb(38, 38, 38);
+    color:white;
+}
+
 .top {
     z-index:1001;
     position:absolute;
@@ -13,13 +19,12 @@
     width:99.5%;
     padding:3px;
     opacity:0.6;
-    
 }
 .toptx {
     color:rgb(255, 255, 255);
     font-size:30px;
     text-shadow:3px 3px 1px #141414;
-    font-family: "poor richard";
+    font-family: "consolas";
 }
 .toptx a {
     color:white;
@@ -50,13 +55,12 @@
 .hd {
     z-index:1000;
     position:absolute;
-    width:100%;
-    top:30%;
-    font-size:50px;
+    font-size:45px;
     text-align: center;
-    font-family: "poor richard";
+    font-family: "Helvetica";
     color:rgb(255, 255, 255);
     text-shadow: 2px 2px 20px rgb(35, 37, 27);
+    margin:160px 450px;
 }
 
 .hd h6 {
@@ -147,7 +151,7 @@
 }
 
 .artic h3{
-    font-family: "poor richard";
+    font-family: "Helvetica";
     margin:50px 0 0 0px;
     padding:0 0 0 30px;
     width:97.6%;
@@ -164,16 +168,15 @@
 }
 
 #atc li {
-    margin:5px 0 0 0;
+    margin:15px 10px;
     float:left;
     width:20%;
     text-align:left;
-    font-family:"poor richard";
+    font-family:"consolas";
     padding:20px;
     background-color: rgb(99, 128, 88);
     border-radius:20px;
-    font-size:30px;
-    border: solid 1px white ;
+    font-size:25px;
 }
 
 #atc img {
@@ -192,15 +195,14 @@
 }
 
 
-
 .psnl h3{
-    font-family: "poor richard";
+    font-family: "Helvetica";
     margin:25px 0 0 0px;
     padding:0 0 0 30px;
     width:97.6%;
     background-color: rgb(50, 51, 49);
     font-size:60px;
-    color:#ffffff;
+    color:#d0e9aa;
     text-shadow:1px 1px 6px black;
 }
 
@@ -211,16 +213,15 @@
 }
 
 #psl li {
-    margin:5px 0 0 0;
+    margin:15px 0 0 0;
     float:left;
     width:20%;
     text-align:left;
-    font-family:"poor richard";
+    font-family:"consolas";
     padding:20px;
     background-color: rgb(55, 56, 55);
     border-radius:20px;
-    font-size:30px;
-    border: solid 1px white ;
+    font-size:25px;
 }
 
 #psl img {
@@ -234,6 +235,39 @@
 }
 
 #psl a {
-    color:#ffffff;
+    color:#d0e9aa;
+    text-shadow:1px 1px 6px black;
+}
+
+#atc2 {
+    display:flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+#atc2 li {
+    margin:15px 10px;
+    float:left;
+    width:20%;
+    text-align:left;
+    font-family:"consolas";
+    padding:20px;
+    background-color: rgb(79, 94, 73);
+    border-radius:20px;
+    font-size:25px;
+}
+
+#atc2 img {
+    width:250px;
+    height:200px;
+    border-radius: 20px;
+    padding:0;
+}
+#atc2 img:hover {
+    opacity:0.7;
+}
+
+#atc2 a {
+    color:#d0e9aa;
     text-shadow:1px 1px 6px black;
 }
