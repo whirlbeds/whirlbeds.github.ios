@@ -60,7 +60,8 @@ body {
     font-family: "Helvetica";
     color:rgb(255, 255, 255);
     text-shadow: 2px 2px 20px rgb(35, 37, 27);
-    margin:160px 450px;
+    width:100%;
+    margin:200px 0px 0px 0px;
 }
 
 .hd h6 {
@@ -130,7 +131,7 @@ body {
 #icolist {
     position:absolute;
     bottom:10px;
-    left: 560px;
+    left: 590px;
 }
 #icolist li {
     width:30px;
